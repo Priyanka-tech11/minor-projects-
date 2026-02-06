@@ -1,14 +1,22 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>E-Commerce</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do-List</title>
 </head>
-<link rel="stylesheet" href="style.css"> 
 <body>
-<div class="navbar">
-<a href="#home"> HOME </a>
-<a href="#"> ABOUT </a>
-<a href="#"> SHOP </a>
-<a href="#"> CONTACT </a>
-
-
+    <div class="container">
+    <h2> TO-DO LIST</h2>
+    <div class="input">
+        <input type="text" id="taskinput" placeholder="Enter Task">
+        <button onclick="addTask()"> Add Task </button>
+        </div>
+        <ul id="tasklist"></ul>
+    </div>
+    
+    
+</body>
+</html>
 
