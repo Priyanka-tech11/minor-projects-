@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#0f172a;
+    color:white;
+}
+.container{
+    background:#1e293b;
+    padding:20px;
+    border-radius:10px;
+    width:400px;
+    text-align:center;
+    box-shadow: #1e293b 0px 10px 20px -10px;
+}
+
+button{
+    background:#22c55e;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    width:100%;
+    cursor:pointer;
+    margin:5px;
+    border-radius:5px;
+}
+
+button:hover{
+    background:#16a34a;
+}
